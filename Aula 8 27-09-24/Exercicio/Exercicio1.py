@@ -14,7 +14,7 @@ def adicionar_na_lista(item, lista):
     global minha_lista
     n = int(input("Digite o número de itens a serem adicionados: "))
     for i in range(n):
-        item = input("Digite o item a ser adicionado: ")
+        item = input(f"Digite o {i+1}° item a ser adicionado: ")
         lista.append(item)
     return minha_lista
 
