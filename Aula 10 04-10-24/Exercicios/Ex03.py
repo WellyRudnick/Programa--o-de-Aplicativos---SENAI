@@ -1,4 +1,3 @@
-# Inicializa o vetor de poltronas com 50 elementos vazios
 poltronas = [None] * 50
 
 def vender_passagem(poltrona):
@@ -12,10 +11,9 @@ def vender_passagem(poltrona):
 def exibir_poltronas():
     for i, status in enumerate(poltronas):
         if status is None:
-            #print(f"Poltrona {i + 1}: Livre")
-        #else:
+            print(f"Poltrona {i + 1}: Livre")
+        else:
             print(f"Poltrona {i + 1}: {status}")
 
-# Exemplo de uso
 vender_passagem(poltronas)
 exibir_poltronas()
