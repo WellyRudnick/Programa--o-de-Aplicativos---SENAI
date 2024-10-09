@@ -10,7 +10,7 @@ for i in range(4):
         piloto.append(tempo)
     tempos.append(piloto)
 
-print("Tempos dos pilotos:")
+print("\n=====================\n\nTempos dos pilotos:\n")
 
 for i in range(4):
     print(f"Piloto {i+1}:")
